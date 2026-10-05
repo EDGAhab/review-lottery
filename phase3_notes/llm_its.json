@@ -1,0 +1,71 @@
+{
+  "its_within_var": {
+    "n": 9,
+    "breakpoint": 2023,
+    "metric": "within-paper score variance (normalized by scale range)",
+    "df_resid": 5,
+    "rsquared": 0.10847955091301076,
+    "coefs": {
+      "t": {
+        "coef": 0.001995302192867514,
+        "se": 0.002604204566420634,
+        "ci95": [
+          -0.004699018761854513,
+          0.00868962314758954
+        ],
+        "p": 0.4781584611900998,
+        "mde_80pct": 0.00908900106624888
+      },
+      "post": {
+        "coef": 0.00987901758899081,
+        "se": 0.05485854429162514,
+        "ci95": [
+          -0.13113935989651102,
+          0.15089739507449265
+        ],
+        "p": 0.8641594996016722,
+        "mde_80pct": 0.19146321068193164
+      },
+      "t_post": {
+        "coef": -0.002554393120082227,
+        "se": 0.00813162615235841,
+        "ci95": [
+          -0.02345740360151997,
+          0.018348617361355516
+        ],
+        "p": 0.7661056777237543,
+        "mde_80pct": 0.02838039673308257
+      }
+    },
+    "interpretation": {
+      "post_level_p_lt_05": false,
+      "post_slope_p_lt_05": false
+    },
+    "sensitivity_drop2020": {
+      "t": {
+        "coef": 0.0012326675845773668,
+        "p": 0.031215831793448494,
+        "mde_80pct": 0.0014076055294901199
+      },
+      "post": {
+        "coef": 0.01242113294995792,
+        "p": 0.19141105436114353,
+        "mde_80pct": 0.029402899542881635
+      },
+      "t_post": {
+        "coef": -0.0017917585117920684,
+        "p": 0.20141722718709387,
+        "mde_80pct": 0.004361306218995762
+      }
+    }
+  },
+  "peersum_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "peersum_note": "no 2023+ review text or confidence available; descriptives only, no ITS",
+  "liang_method": "infeasible: requires post-ChatGPT review text corpora; berenslab has 0/134912 review texts, PeerSum ends 2022. No per-review AI classification attempted (also prohibited by prereg)."
+}

@@ -1,0 +1,17 @@
+{
+  "sigma_paper_mean": 0.8641047328618617,
+  "sigma_paper_sd": 0.03659917791113511,
+  "rho_mean": 0.42717298486419725,
+  "rho_ci95": [
+    0.38766034116052983,
+    0.4685546923519104
+  ],
+  "divergences": null,
+  "note": "divergences unavailable (summary regenerated from npz after VM reboot)",
+  "n_papers": 969,
+  "n_rev": 2921,
+  "C": 10,
+  "tune": 1000,
+  "draws": 1000,
+  "split_rhat_sigma": 1.0023
+}
